@@ -12,7 +12,7 @@ For building an android release:
 yarn react-native run-android --mode=release
 ```
 
-### Flashlight Report
+### Flashlight Report for Samsung A51
 
 Inside `/report` you can find the flashlight report of three different apk.
 
