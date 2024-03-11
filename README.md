@@ -23,3 +23,9 @@ The testing methodology is explained inside `/testing.md`
 ### APKs
 
 The already made APKs can be found inside `/apk`
+
+
+### Demo
+
+https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/dbdd1c18-46d8-4d00-8a1b-cbcbef26f911
+
