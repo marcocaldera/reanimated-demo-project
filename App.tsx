@@ -13,7 +13,7 @@ function App(): React.JSX.Element {
     <SafeAreaProvider>
       <NavigationContainer>
         <Tab.Navigator
-          initialRouteName="Reanimated"
+          initialRouteName="Skia"
           screenOptions={() => ({ unmountOnBlur: true })}>
           <Tab.Screen name="Skia" component={SkiaFast} />
           <Tab.Screen name="Reanimated" component={Reanimated} />
