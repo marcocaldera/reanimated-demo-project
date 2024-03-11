@@ -18,6 +18,8 @@ Inside `/report` you can find the flashlight report of three different apk.
 
 The testing methodology is explained inside `/testing.md`
 
+![Screenshot 2024-03-11 at 18 52 05](https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/90e3d470-6604-440b-bfb7-fdc3199af01d)
+
 ### APKs
 
 The already made APKs can be found inside `/apk`
