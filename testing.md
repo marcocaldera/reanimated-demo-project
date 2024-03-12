@@ -1,10 +1,15 @@
 ```
+
+adb install apk/reanimated.apk
 flashlight test --bundleId com.performancebenchmark --resultsFilePath reanimated.json --duration 15000 --iterationCount 10 --testCommand "adb shell monkey -p com.performancebenchmark 1"
 
+adb install apk/reanimated-json.apk
 flashlight test --bundleId com.performancebenchmark --resultsFilePath reanimated-json.json --duration 15000 --iterationCount 10 --testCommand "adb shell monkey -p com.performancebenchmark 1"
 
+adb install apk/skia.apk
 flashlight test --bundleId com.performancebenchmark --resultsFilePath skia.json --duration 15000 --iterationCount 10 --testCommand "adb shell monkey -p com.performancebenchmark 1"
 
+# Move the .json results indei a folder called results and:
 flashlight report results
 ```
 
