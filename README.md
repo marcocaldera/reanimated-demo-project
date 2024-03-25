@@ -39,3 +39,9 @@ https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/dbdd1c18
 ```
 
 <img width="1445" alt="Screenshot 2024-03-25 at 14 06 13" src="https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/f932f28a-a4f9-41eb-a934-89418a3ff9f3">
+
+##### Demo
+
+https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/63abafc1-79b6-487b-9cbc-84aa1c6667a7
+
+
