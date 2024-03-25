@@ -5,6 +5,7 @@ import { SkiaFast } from './app/skia/SkiaFast';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Reanimated } from './app/reanimated/Reanimated';
 import { ReanimatedJSON } from './app/reanimated-json/ReanimatedJSON';
+import { ReanimatedBuffer } from './app/reanimated-buffer/ReanimatedBuffer';
 
 const Tab = createBottomTabNavigator();
 
@@ -13,11 +14,12 @@ function App(): React.JSX.Element {
     <SafeAreaProvider>
       <NavigationContainer>
         <Tab.Navigator
-          initialRouteName="Skia"
+          initialRouteName="Reanimated Buffer"
           screenOptions={() => ({ unmountOnBlur: true })}>
           <Tab.Screen name="Skia" component={SkiaFast} />
           <Tab.Screen name="Reanimated" component={Reanimated} />
           <Tab.Screen name="Reanimated JSON" component={ReanimatedJSON} />
+          <Tab.Screen name="Reanimated Buffer" component={ReanimatedBuffer} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

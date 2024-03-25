@@ -12,20 +12,28 @@ For building an android release:
 yarn react-native run-android --mode=release
 ```
 
-### Flashlight Report for Samsung A51
+### Performance
 
-Inside `/report` you can find the flashlight report of three different apk.
+- Inside `test-X/report` you can find the flashlight report of the different APKs.
+- The testing methodology is explained inside `test-X/testing.md`
+- The already made APKs can be found inside `test-X/apk`
 
-The testing methodology is explained inside `./testing.md`
+#### Test 1 - Flashlight Report for Samsung A51
+
+```
+"@shopify/react-native-skia": "0.1.196",
+"react-native-reanimated": "3.6.1",
+```
 
 ![Screenshot 2024-03-11 at 18 52 05](https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/90e3d470-6604-440b-bfb7-fdc3199af01d)
 
-### APKs
-
-The already made APKs can be found inside `/apk`
-
-
-### Demo
+##### Demo
 
 https://github.com/marcocaldera/reanimated-demo-project/assets/93535783/dbdd1c18-46d8-4d00-8a1b-cbcbef26f911
 
+#### Test 2 - Flashlight Report for Samsung A51
+
+```
+"@shopify/react-native-skia": "0.1.196",
+"react-native-reanimated": "3.8.1",
+```
